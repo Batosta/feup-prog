@@ -1,0 +1,35 @@
+﻿Build started 28-04-2017 17:25:55.
+     1>Project "C:\Users\Utilizador\Desktop\FEUP\PROG\Projeto 2\Projeto 2\Projeto 2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Bus.cpp Company.cpp condutores.cpp Driver.cpp Line.cpp linhas.cpp main.cpp Menus.cpp Shift.cpp
+         Shift.cpp
+         Menus.cpp
+         main.cpp
+     1>c:\users\utilizador\desktop\feup\prog\projeto 2\projeto 2\main.cpp(14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\utilizador\desktop\feup\prog\projeto 2\projeto 2\main.cpp(16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\utilizador\desktop\feup\prog\projeto 2\projeto 2\main.cpp(21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+         linhas.cpp
+         Line.cpp
+         Driver.cpp
+         condutores.cpp
+         Company.cpp
+     1>c:\users\utilizador\desktop\feup\prog\projeto 2\projeto 2\company.cpp(60): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\utilizador\desktop\feup\prog\projeto 2\projeto 2\company.cpp(72): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+         Bus.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Utilizador\Desktop\FEUP\PROG\Projeto 2\x64\Debug\Projeto 2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Utilizador\Desktop\FEUP\PROG\Projeto 2\x64\Debug\Projeto 2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Utilizador\Desktop\FEUP\PROG\Projeto 2\x64\Debug\Projeto 2.lib" /MACHINE:X64 x64\Debug\Bus.obj
+         x64\Debug\Company.obj
+         x64\Debug\condutores.obj
+         x64\Debug\Driver.obj
+         x64\Debug\Line.obj
+         x64\Debug\linhas.obj
+         x64\Debug\main.obj
+         x64\Debug\Menus.obj
+         x64\Debug\Shift.obj
+         Projeto 2.vcxproj -> C:\Users\Utilizador\Desktop\FEUP\PROG\Projeto 2\x64\Debug\Projeto 2.exe
+     1>Done Building Project "C:\Users\Utilizador\Desktop\FEUP\PROG\Projeto 2\Projeto 2\Projeto 2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.23
